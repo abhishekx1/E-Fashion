@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion | Beauty Store</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+    <header class="nav-bar">
+        <div id="logo">
+            <a href="index.html" class="logo-name">E-Fashion</a>
+        </div>
+
+        <div class="hamburger-nav">
+            <nav id="nav">
+                <ul class="nav-links">
+                    <li><a href="Pages/cityLocalStore.html">City Fashion Store</a></li>
+                    <li><a href="Pages/cityBeautyStore.html">City Beauty Store</a></li>
+                    <li><a href="Pages/handicraft.html">Signature Handicraft</a></li>
+                    <li><a href="Pages/fashionWear.html">Fashion Wear</a></li>
+                </ul>
+            </nav>
+
+            <div id="nav-button">
+                <a href="#" id="signin">Sign in / Sign up</a>
+                <div class="dropdown-form">
+                    <form action="">
+                        <div class="form-input">
+                            <label for="username">Username : &nbsp;</label>
+                            <input type="text" name="username" id="username">
+                        </div>
+                        <div class="form-input">
+                            <label for="password">Password : &nbsp;</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-input form-text">
+                            <a href="">Forgot Password ?</a>
+                            <input type="submit" value="Sign in">
+                        </div>
+                        <div class="form-text signup-section">
+                            Don't have an account ? <a href="">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="ham-burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main id="main-container">
+        <div id="carousel">
+            <button class="carousel-btn carousel-btn-left is-hidden">
+                <img src="images/left-arrow.png" alt="error loading image">
+            </button>
+
+            <div class="carousel-container">
+                <ul class="carousel-item">
+                    <li class="carousel-slide current-slide">
+                        <img src="images/carousel-img-1.jpg" alt="error loading image" class="carousel-image">
+                        <div class="carousel-slide-text">
+                            <h1>SALE</h1>
+                            <h2>Discount Upto 50%</h2>
+                            <a href="#">Shop The collection</a>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="images/carousel-img-2.jpg" alt="error loading image" class="carousel-image">
+                        <div class="carousel-slide-text carousel-slide2-text">
+                            <h1>SALE</h1>
+                            <h2>Discount Upto 50%</h2>
+                            <a href="#">Shop The collection</a>
+                        </div>
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="images/carousel-img-3.jpg" alt="error loading image" class="carousel-image">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="images/carousel-img-4.jpg" alt="error loading image" class="carousel-image">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="carousel-btn carousel-btn-right">
+                <img src="images/right-arrow.png" alt="error loading image">
+            </button>
+
+            <div class="carousel-nav">
+                <button class="carousel-indicator current-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </main>
+
+    <section id="store-container">
+        <div class="store-item store-item1">
+            <figure>
+                <img src="Images/fashion store.jpg" class="store-image fashn-str-img" alt="error loading image">
+            </figure>
+            <div class="store-detail">
+                <h2>Fashion Store</h2>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="store-item store-item2">
+            <figure>
+                <img src="Images/fashion wear collection.jpg" class="store-image fashn-wr-img"
+                    alt="error loading image">
+            </figure>
+            <div class="store-detail">
+                <h2>Fashion Wear <br> collection</h2>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="store-item store-item3">
+            <figure>
+                <img src="Images/handicraft image.jpg" class="store-image handicraft-img" alt="error loading image">
+            </figure>
+            <div class="store-detail store-detail3">
+                <h2>Signature Handicraft</h2>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="store-item store-item4">
+            <figure>
+                <img src="Images/beauty store.jpg" class="store-image buty-str-img" alt="error loading image">
+            </figure>
+            <div class="store-detail">
+                <h2>Beauty Store</h2>
+                <button>Explore</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="fashion-wear feature-section">
+        <h1>Fashion Wear</h1>
+        <ul class="fashion-wear-container feature-section-container">
+            <li class="fashion-wear-item feature-container-item">
+                <img src="Images/feature-fashion-img1.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>T-Shirt</h2>
+                <p>Men White & Orange Printed T-shirt</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="fashion-wear-item feature-container-item">
+                <img src="Images/feature-fashion-img2.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Top</h2>
+                <p>Croped Printed Top</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="fashion-wear-item feature-container-item">
+                <img src="Images/feature-fashion-img5.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>T-Shirt</h2>
+                <p>Pack of Matching Men & Women Pri..</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="fashion-wear-item feature-container-item">
+                <img src="Images/feature-fashion-img3.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Shirt</h2>
+                <p>Men Beige Cotton Regular Fit Oxford..</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="fashion-wear-item feature-container-item">
+                <img src="Images/feature-fashion-img4.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Dress</h2>
+                <p>Women Brown Solid Trench Coat</p>
+                <h2>$ 500</h2>
+            </li>
+        </ul>
+    </section>
+
+    <section class="feature-handicraft feature-section">
+        <h1>Feature Handicraft</h1>
+        <ul class="feature-handicraft-container feature-section-container">
+            <li class="feature-handicraft-item feature-container-item">
+                <img src="Images/handicraft-img1.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Handpainted Pots</h2>
+                <p>Terracotta Warli Handpainted Pots..</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="feature-handicraft-item feature-container-item">
+                <img src="Images/handicraft-img2.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Macrame Showpiece</h2>
+                <p>Macrame handmade object Showpiece</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="feature-handicraft-item feature-container-item">
+                <img src="Images/handicraft-img3.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Wall Decorative</h2>
+                <p>Sancheti Art Wall Decorative Metal..</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="feature-handicraft-item feature-container-item">
+                <img src="Images/handicraft-img4.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Flowerpot</h2>
+                <p>Handmade Decorative Flowerpot</p>
+                <h2>$ 500</h2>
+            </li>
+            <li class="feature-handicraft-item feature-container-item">
+                <img src="Images/handicraft-img5.jpg" class="item-img" alt="">
+                <a href="#" class="pop-up">
+                    <img src="Images/heart.png" class="wishlist" alt="" height="25px" width="25px">
+                    <img src="Images/shopping-bag.png" class="add-to-bag" alt="" height="25px" width="25px">
+                </a>
+                <h2>Eiffel Tower</h2>
+                <p>Replica Metal Minature Statue..</p>
+                <h2>$ 500</h2>
+            </li>
+        </ul>
+    </section>
+
+    <section class="feature-localstore feature-section">
+        <h1>Feature Localstore</h1>
+        <ul class="feature-localstore-container feature-section-container">
+            <li class="feature-localstore-item feature-container-item">
+                <a href=""><img src="Images/localstore-img1.jpg" class="item-img" alt=""></a>
+                <div class="feature-localstore-item-detail">
+                    <h2>Casual Store</h2>
+                    <a href="#">See Products</a>
+                </div>
+            </li>
+            <li class="feature-localstore-item feature-container-item">
+                <a href=""><img src="Images/localstore-img2.jpg" class="item-img" alt=""></a>
+                <div class="feature-localstore-item-detail">
+                    <h2>Winter Wear Store</h2>
+                    <a href="#">See Products</a>
+                </div>
+            </li>
+            <li class="feature-localstore-item feature-container-item">
+                <a href=""><img src="Images/localstore-img3.jpg" class="item-img" alt=""></a>
+                <div class="feature-localstore-item-detail">
+                    <h2>Ladies Store</h2>
+                    <a href="#">See Products</a>
+                </div>
+            </li>
+            <li class="feature-localstore-item feature-container-item">
+                <a href=""><img src="Images/localstore-img4.jpg" class="item-img" alt=""></a>
+                <div class="feature-localstore-item-detail">
+                    <h2>Denim Store</h2>
+                    <a href="#">See Products</a>
+                </div>
+            </li>
+            <li class="feature-localstore-item feature-container-item">
+                <a href=""><img src="Images/localstore-img5.jpg" class="item-img" alt=""></a>
+                <div class="feature-localstore-item-detail">
+                    <h2>Fashion Store</h2>
+                    <a href="#">See Products</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <secction class="order-related">
+        <div class="order-related-container o-r-container1">
+            <img src="Images/free-shipping.png" alt="">
+            <h2>Free Shipping</h2>
+            <p>on orders above 100$</p>
+        </div>
+        <div class="order-related-container o-r-container2">
+            <img src="Images/fast-delivery.png" alt="">
+            <h2>Fast Delivery</h2>
+            <p>worldwide</p>
+        </div>
+        <div class="order-related-container o-r-container3">
+            <img src="Images/thumbsUp.png" alt="">
+            <h2>Big Choice</h2>
+            <p>of products</p>
+        </div>
+    </secction>
+
+    <footer class="footer-container">
+        <div class="footer-section">
+            <a href="index.html" class="logo-name">E-Fashion</a>
+            <a href=""><img src="Images/placeholder.png" alt="" height="15px" width="15px"> &nbsp; 123 Main Road, New
+                Delhi, India</a>
+            <a href=""><img src="Images/email.png" alt="" height="15px" width="15px"> &nbsp; contact@eFashion.com</a>
+            <a href=""><img src="Images/telephone.png" alt="" height="15px" width="15px"> &nbsp; +91 1234567890</a>
+        </div>
+
+        <div class="footer-section">
+            <h1>CATEGORIES</h1>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Handicraft</a>
+            <a href="">Accesories</a>
+            <a href="">Shoes</a>
+            <a href="">Denim</a>
+        </div>
+
+        <div class="footer-section">
+            <h1>INFOMATION</h1>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Returns & Exchanges</a>
+            <a href="">Shipping & Delivery</a>
+            <a href="">Privacy Policy</a>
+        </div>
+
+        <div class="footer-section newsletter-section">
+            <h1>NEWSLETTER SIGNUP</h1>
+            <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+            <p class="newsletter-emai">Your Email Address <a href="" class="newsletter-subscribe">Subscribe</a></p>
+        </div>
+    </footer>
+
+    <section class="copyright-section">
+        <div>Copyright ©2021 All rights reserved ! This website is made by Abhishek Srivastav</div>
+    </section>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>

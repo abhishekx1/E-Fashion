@@ -1,0 +1,240 @@
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Carousel Styling */
+    #carousel {
+        width: 95%;
+    }
+
+    /* Navbar Styling */
+    .logo-name{
+        font-size: 4rem;
+    }
+
+    .hamburger-nav{
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 9vh;
+        margin: 0px;
+        background-color: var(--light);
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--dark);
+        margin-bottom: 5vh;
+    }
+
+    .nav-links li{
+        margin: 20px 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    }
+
+    .nav-links li a{
+        padding: 0px;   
+        font-size: 1.5rem;
+    }
+
+    #nav-button{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    }
+
+    #nav-button a{
+    border-bottom: 1px solid var(--dark);
+    margin: 0px;
+    font-size: 1.5rem;
+    }
+
+    .ham-burger{
+        display: block;
+        margin-left: 40%;
+    }
+
+    /* store container styling */
+    #store-container{
+        flex-direction: column;
+    }
+
+    .store-item{
+        width: 90vw;
+        margin: 10px auto;
+     }
+     
+     .store-image{
+         width: 90vw;
+     }
+
+     /* feature section styling */
+     .feature-section{
+         margin: 0px;
+     }
+
+    .feature-section-container {
+        flex-direction: column;
+    }
+
+    .feature-section h1{
+        font-size: 3rem;
+    }
+
+    .feature-container-item{
+        margin: 10px 0px;
+    }
+
+    .item-img{
+        width: 100%;
+    }
+
+    /* order related container styling */
+    .order-related{
+        flex-direction: column;
+    }
+
+    .order-related-container {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    /* footer styling */
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .newsletter-section {
+        width: 100%;
+    }
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>> Styling for fashion wear.html <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    .fashion-wear-nav{
+        margin-top: 65px;
+        padding: 0px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+    
+    .banner-container{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .secondary-nav{
+        transition: 0.5s;
+        height: 60px;
+        overflow: hidden;
+    }
+
+    .secondary-nav-links{
+        margin: 0px;
+    }
+
+    .secondary-nav-links li{
+        padding: 0px;
+    }
+
+    .open-nav, .close-nav{
+        font-size: 3rem;
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        color: var(--light);
+        cursor: pointer;
+    }
+
+    .close-nav{
+        display: none;
+    }
+    
+    /* >>>>>>>>>>>>>>>>>>>>>>>> Styling for Citylocalstore & CityBeautyStore <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    .input-box{
+        padding: 0px 5px;
+    }
+    
+    .input-box input{
+        font-size: 1.5rem;
+        padding: 5px;
+        width: 100px;
+    }
+
+    .cityStore-nav-section{
+        position: relative;
+    }
+
+    .cityStore-main-container{
+        flex-direction: column;
+    }
+    
+    .cityStore-container-item{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+
+    .collection-container{
+        width: 90%;
+    }
+
+    .collection-item{
+        width: 90%;
+        margin: 20px;
+    }
+    
+    .collection-item img{
+        width: 100%;
+    }
+
+    /* Handicraft last section styling */
+    .last-section{
+        flex-direction: column;
+    }
+
+    .last-section-container{
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .container2-item{
+        width: 80.5%;
+        margin: 20px auto;
+    }
+    
+    .container1-3-item{
+        width: 90%;
+    }
+}
+
+
+
+
+/* Class for Nav-links to show on hamburger click */
+.nav-active{
+    transform: translateX(0%);
+}
+
+/* Hamburger Styling */
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
